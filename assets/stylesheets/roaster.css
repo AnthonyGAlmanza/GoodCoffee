@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(133, 92, 92);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.carousel-inner {
+    height: 300px;
+}
+
+
+
+.carousel-item {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+	background-color: #4f9ea3;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+}
+
+.roastp {
+    color: lightsteelblue;
+    text-align: center;
+}
+
+.infoRow  {
+    height: 40vh;
+    font-size: 15pt;
+}
+
+
+
+.bgBrown {
+    background-color: rgba(71, 40, 40, 0.808);
+}
+
+li a  {
+    color: white;
+}
